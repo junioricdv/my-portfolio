@@ -76,7 +76,18 @@ section {
 }
 
 .img-full {
-  width: 100%;
+  background: #f3f3f3;
+  border-radius: 3px;
+  padding: 26px;
+  height: 100%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  margin-bottom: 30px;
+}
+
+.img-full:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.12);
 }
 
 .img-fulll {
@@ -813,6 +824,49 @@ section {
     border-left: none;
     padding-left: 0;
   }
+}
+
+/**********************
+   PROJETOS COM IA
+**********************/
+
+.ai-projects {
+  background: #f7f9fc;
+  padding: 100px 0;
+}
+
+.ai-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 26px;
+  height: 100%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  margin-bottom: 30px;
+}
+
+.ai-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.12);
+}
+
+.ai-card img {
+  border-radius: 10px;
+  margin-bottom: 18px;
+}
+
+.ai-card h3 {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+
+.ai-card p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #555;
 }
 
 /**********************
